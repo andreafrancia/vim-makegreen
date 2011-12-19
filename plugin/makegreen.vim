@@ -17,8 +17,8 @@ let g:makegreen_loaded = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-hi GreenBar term=reverse ctermfg=white ctermbg=green guifg=white guibg=green
-hi RedBar   term=reverse ctermfg=white ctermbg=red guifg=white guibg=red
+hi GreenBar term=reverse ctermfg=black ctermbg=lightgreen guifg=white guibg=green
+hi RedBar   term=reverse ctermfg=black ctermbg=lightred   guifg=white guibg=red
 
 function MakeGreen(...) "{{{1
   let arg_count = a:0
